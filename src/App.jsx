@@ -7,7 +7,9 @@ function App() {
 		<main>
 			<div className="container">
 				<h3>FAQ</h3>
-				<section className="info">{/* will add questions here later */}</section>
+				<section className="info">
+					{/* map over data imported at the top and use SingleQuestion component */}
+				</section>
 			</div>
 		</main>
 	)
