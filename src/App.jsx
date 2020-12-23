@@ -3,7 +3,14 @@ import data from './data'
 import SingleQuestion from './Question'
 
 function App() {
-	return <h2>accordion project setup</h2>
+	return (
+		<main>
+			<div className="container">
+				<h3>FAQ</h3>
+				<section className="info">{/* will add questions here later */}</section>
+			</div>
+		</main>
+	)
 }
 
 export default App
