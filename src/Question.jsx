@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 
 // Accept prop here
-const Question = () => {
+const Question = (props) => {
 	// display prop.title here inside this h2
-	return <h2>question component</h2>
+	return <h2>{props.title}</h2>
 }
 
 export default Question

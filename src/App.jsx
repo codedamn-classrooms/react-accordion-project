@@ -8,7 +8,9 @@ function App() {
 			<div className="container">
 				<h3>FAQ</h3>
 				<section className="info">
-					{/* map over data imported at the top and use SingleQuestion component */}
+					{data.map((question) => {
+						return <SingleQuestion title={question.title} key={question.id} />
+					})}
 				</section>
 			</div>
 		</main>
