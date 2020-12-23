@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 
-// Accept prop here
 const Question = (props) => {
-	// display prop.title here inside this h2
+	const { title, info } = props
+
+	// update the UI here
 	return <h2>{props.title}</h2>
 }
 
