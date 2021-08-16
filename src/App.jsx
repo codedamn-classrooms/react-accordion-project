@@ -12,6 +12,7 @@ function App() {
 						return (
 							<SingleQuestion
 								title={question.title}
+								info={question.info}
 								key={question.id}
 							/>
 						)
