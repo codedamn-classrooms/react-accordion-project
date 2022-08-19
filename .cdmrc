@@ -1,2 +1,2 @@
-terminal-one: yarn dev
+terminal-one: yarn && yarn dev
 tabs: ['src/index.jsx', 'src/App.jsx']
