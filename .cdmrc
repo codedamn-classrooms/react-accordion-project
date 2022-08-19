@@ -1,0 +1,2 @@
+terminal-one: yarn dev
+tabs: ['src/index.jsx', 'src/App.jsx']
